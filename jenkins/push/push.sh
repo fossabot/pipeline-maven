@@ -5,7 +5,6 @@ echo "** Pushing Image **"
 echo "*******************"
 
 IMAGE="maven-project"
-PASS="!Abcd@123"
 
 echo "** Loggin in **"
 docker login -u bideb -p $PASS
